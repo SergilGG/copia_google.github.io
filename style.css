@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.header_div{
+    padding: 10px 10px;
+    margin: 0px ;
+}
+.header_div_img{
+    padding: 10px 10px;
+    margin: 8px 0px;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#logo{
+    margin: -5px auto;
+    display: block;
+}
+
+#caja_busqueda{
+    margin: 20px auto;
+    display: block;
+    background-color: #303135;
+    border: 0.8px solid gray;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 150px;
+
+}
+
+.boton{
+    padding:  5px 10px 5px 10px;
+    background-color: #303135;
+    margin: 10px;
+}
+
+#botones{
+    margin: 0px auto;
+    text-align: center;  
+}
+
+#gray{
+    padding:  5px 10px 5px 10px;
+    margin: 0px;
+    color: white;
+}
+
+#underline_blue{
+    padding:  5px 10px 5px 10px;
+    margin: 0px;
+    color: #4271bd;
+    font-style: underline;
+}
+
+#idiomas{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 12px; 
+}
+
+#pais{
+    text-align: left;
+}
+
+#footer1{
+    display: inline-flex;
+    justify-content: flex-start;
+}
+
+#footer2{
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.footers{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+footer{
+    font-size: 12px;
+    display: block;
+    margin: 0px auto;
+    background-color: #181818;
+    text-align: center;
+    padding-bottom: 100px;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+input:hover{
+    background-color: gray;
+}
+.boton:hover{
+    border: 1px solid white;
+}
+
+hr{
+    border: 5px;
+    color: #303135;
+}
+body{
+    margin: 0px;
+    /* font-family: Roboto; */
+    background-color: #202123;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
